@@ -1,14 +1,16 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import "./cssReset.css";
+import Signup from "./Signup";
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="App">
+                <Signup />
+            </div>
+        );
+    }
 }
 
 export default App;
